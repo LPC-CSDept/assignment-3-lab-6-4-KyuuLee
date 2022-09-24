@@ -8,7 +8,17 @@
       "output": "[9]",
       "comparison": "regex",
       "timeout": 10,
-      "points": null
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ -std=c++11 A63.cpp && ./a.out",
+      "input": "3\r\n1\r\n10\r\n100",
+      "output": "[10]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
