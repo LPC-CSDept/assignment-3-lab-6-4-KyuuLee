@@ -36,3 +36,4 @@ int getsum(int N)
 	sum = sum - min - max;
 	return sum;
 }
+// edit
