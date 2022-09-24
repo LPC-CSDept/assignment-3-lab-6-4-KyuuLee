@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ -std=c++11 A63.cpp && ./a.out",
+      "input": "5\r\n1\r\n2\r\n3\r\n4\r\n5",
+      "output": "[9]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
